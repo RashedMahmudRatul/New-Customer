@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14516" started-at="2020-10-28T00:55:25 BDT" finished-at="2020-10-28T00:55:39 BDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14516" started-at="2020-10-28T00:55:25 BDT" finished-at="2020-10-28T00:55:39 BDT">
+      <class name="Tests.ValidData">
+        <test-method status="PASS" signature="broswerConfig()[pri:0, instance:Tests.ValidData@1d8d30f7]" name="broswerConfig" is-config="true" duration-ms="5682" started-at="2020-10-28T00:55:25 BDT" finished-at="2020-10-28T00:55:30 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broswerConfig -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Tests.ValidData@1d8d30f7]" name="login" duration-ms="8591" started-at="2020-10-28T00:55:30 BDT" description="Check if login  goes to manager page" finished-at="2020-10-28T00:55:39 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Valid001()[pri:0, instance:Tests.ValidData@1d8d30f7]" name="Valid001" duration-ms="190" started-at="2020-10-28T00:55:39 BDT" finished-at="2020-10-28T00:55:39 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid001 -->
+      </class> <!-- Tests.ValidData -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
