@@ -54,11 +54,11 @@ public class BaseClass {
 	  
 	  driver.get("http://demo.guru99.com/V4/");
 	  
-	 driver.findElement(By.name("uid")).sendKeys("mngr291479");
-	 driver.findElement(By.name("password")).sendKeys("utagEry"); 
-	 driver.findElement(By.name("btnLogin")).click(); 
+	  driver.findElement(By.name("uid")).sendKeys("mngr291478");
+	  driver.findElement(By.name("password")).sendKeys("YdApyja");  
+	  driver.findElement(By.name("btnLogin")).click(); 
 	 
-	 String postcondition = "Manger Id : mngr291479";
+	 String postcondition = "Manger Id : mngr291478";
 	 String actualcondition= driver.findElement(By.cssSelector("tr.heading3 > td:nth-child(1)")).getText();
 	 if(postcondition.equals(actualcondition))
 	 {
@@ -68,7 +68,8 @@ public class BaseClass {
 	 {
 		 System.out.println("Test Failled");
 	 }
-	 driver.findElement(By.cssSelector(".menusubnav > li:nth-child(2) > a:nth-child(1)")).click();
+	 driver.findElement(By.cssSelector(".menusubnav > li:nth-child(14) > a:nth-child(1)")).click();
+
 
 }
   

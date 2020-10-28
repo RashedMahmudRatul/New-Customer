@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14516" started-at="2020-10-28T00:55:25 BDT" finished-at="2020-10-28T00:55:39 BDT">
+  <suite name="Suite" duration-ms="24995" started-at="2020-10-28T17:40:35 BDT" finished-at="2020-10-28T17:41:00 BDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14516" started-at="2020-10-28T00:55:25 BDT" finished-at="2020-10-28T00:55:39 BDT">
+    <test name="Test" duration-ms="24995" started-at="2020-10-28T17:40:35 BDT" finished-at="2020-10-28T17:41:00 BDT">
       <class name="Tests.ValidData">
-        <test-method status="PASS" signature="broswerConfig()[pri:0, instance:Tests.ValidData@1d8d30f7]" name="broswerConfig" is-config="true" duration-ms="5682" started-at="2020-10-28T00:55:25 BDT" finished-at="2020-10-28T00:55:30 BDT">
+        <test-method status="PASS" signature="broswerConfig()[pri:0, instance:Tests.ValidData@1d8d30f7]" name="broswerConfig" is-config="true" duration-ms="5709" started-at="2020-10-28T17:40:35 BDT" finished-at="2020-10-28T17:40:41 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- broswerConfig -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Tests.ValidData@1d8d30f7]" name="login" duration-ms="8591" started-at="2020-10-28T00:55:30 BDT" description="Check if login  goes to manager page" finished-at="2020-10-28T00:55:39 BDT">
+        <test-method status="PASS" signature="login()[pri:0, instance:Tests.ValidData@1d8d30f7]" name="login" duration-ms="7816" started-at="2020-10-28T17:40:41 BDT" description="Check if login  goes to manager page" finished-at="2020-10-28T17:40:49 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="Valid001()[pri:0, instance:Tests.ValidData@1d8d30f7]" name="Valid001" duration-ms="190" started-at="2020-10-28T00:55:39 BDT" finished-at="2020-10-28T00:55:39 BDT">
+        <test-method status="PASS" signature="Valid001()[pri:0, instance:Tests.ValidData@1d8d30f7]" name="Valid001" duration-ms="11421" started-at="2020-10-28T17:40:49 BDT" finished-at="2020-10-28T17:41:00 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Valid001 -->
